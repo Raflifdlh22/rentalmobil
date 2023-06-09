@@ -31,11 +31,6 @@
                                     </td>
                                 </tr>
                             @endforeach
-                            @if (count($merk) == 0)
-                                <tr>
-                                    <td colspan="3" class="text-center">Data Kosong</td>
-                                </tr>
-                            @endif
                         </tbody>
                     </table>
                 </div>

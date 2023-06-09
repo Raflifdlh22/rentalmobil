@@ -9,8 +9,8 @@ class MerkController extends Controller
 {
     function index()
     {
-        $merkData = merk::get();
-        return view('pages.merk.index', ['merkdata' => $merkData]);
+        $merkData = Merk::get();
+        return view('pages.merk.index', ['merkData' => $merkData]);
     }
     
     function create()
