@@ -11,7 +11,7 @@
         </div>
         <div class="card shadow">
             <div class="card-body">
-                <div class="table-responsive">
+            <div class="table-responsive">
                     <table class="table table-bordered">
                         <thead>
                             <tr>
@@ -21,13 +21,13 @@
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach ($merkData as $item)
+                            @foreach ($merkData as $merk)
                                 <tr>
                                     <td>{{$loop->iteration}}</td>
                                     <td>{{$merk->merk}}</td>
                                     <td>
-                                        <a href="/merk/edit/{{$item->id}}" class="btn btn-warning btn-sm">Edit</a>
-                                        <a href="/merk/hapus/{{$item->id}}" class="btn btn-danger btn-sm">Hapus</a>
+                                        <a href="/merk/edit/{{$merk->id}}" class="btn btn-warning btn-sm">Edit</a>
+                                        <a href="/merk/delete/{{$merk->id}}" class="btn btn-danger btn-sm">Hapus</a>
                                     </td>
                                 </tr>
                             @endforeach
