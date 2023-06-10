@@ -14,7 +14,7 @@
             <thead>
                 <tr>
                     <th>nomor</th>
-                    <th>nama mobil</th>
+                    <th>nama mobil pelanggan</th>
                     <th>merk mobil</th>
                     <th>cc</th>
                     <th>action</th>
