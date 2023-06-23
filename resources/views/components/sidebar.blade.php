@@ -17,9 +17,9 @@
                     <nav class="sb-sidenav-menu-nested nav">
                         <a class="nav-link" href="/mobil">Mobil</a>
                         <a class="nav-link" href="/merk">Merk</a>
-                        <a class="nav-link" href="layout-sidenav-light.html">Peminjaman</a>
-                        <a class="nav-link" href="layout-sidenav-light.html">Tipe Mobil</a>
-                        <a class="nav-link" href="layout-sidenav-light.html">User</a>
+                        <a class="nav-link" href="/peminjaman">Peminjaman</a>
+                        <a class="nav-link" href="/tipemobil">Tipe Mobil</a>
+                        <a class="nav-link" href="/user">User</a>
                     </nav>
                 </div>
                 <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
