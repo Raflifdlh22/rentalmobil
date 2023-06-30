@@ -30,7 +30,7 @@ Route::get('/welcome', function () {
 Route::get('/greeting', function () {
     return view('greeting');
 });
-Route::middleware(['auth'])->group(function(){
+// Route::middleware(['auth'])->group(function(){
 Route::get('/mobil', [MobilController::class, 'index']);
 Route::get('/mobil/create', [MobilController::class, 'create']);
 Route::post('/mobil/simpan-data', [MobilController::class, 'store']);
@@ -55,7 +55,7 @@ Route::post('/user/simpan-data', [UserController::class, 'store']);
 Route::get('/user/edit/{id}', [UserController::class, 'edit']);
 Route::post('/user/update/{id}', [UserController::class, 'update']);
 Route::get('/user/delete/{id}', [UserController::class, 'delete']);
-});
+// });
 Route::get('/login', [Auth\loginController::class, 'index'])->name('login');
 Route::post('/login/proses', [Auth\loginController::class, 'login']);
 Route::get('/logout', [Auth\loginController::class, 'logout']);
